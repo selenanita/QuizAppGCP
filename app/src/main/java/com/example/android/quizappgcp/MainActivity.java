@@ -20,14 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     //Global values
 
-    int score1;
-    int score2;
-    int score3;
-    int score4;
-    int score5;
-    int score6;
-    int score7;
-    int scoreTotal;
+    int score;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,12 +76,10 @@ public class MainActivity extends AppCompatActivity {
         String answerQ7 = editTextQ7.getText().toString();
         calculateScoreQ7(answerQ7);
 
-        scoreTotal = calculateTotalScore(score1, score2, score3, score4, score5, score6, score7);
-
-        if (scoreTotal == 7) {
-            Toast.makeText(this, "Good job. You did it! Your score is " + scoreTotal + " out of 7!", Toast.LENGTH_SHORT).show();
+        if (score == 7) {
+            Toast.makeText(this, "Good job. You did it! Your score is " + score + " out of 7!", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(this, "Keep trying. Your score is " + scoreTotal + " out of 7!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Keep trying. Your score is " + score + " out of 7!", Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -97,9 +88,8 @@ public class MainActivity extends AppCompatActivity {
      */
     public void calculateScoreQ1(boolean answerClickedQ1) {
 
-        score1 = 0;
         if (answerClickedQ1) {
-            score1 = 1;
+            score++;
         }
     }
 
@@ -108,9 +98,8 @@ public class MainActivity extends AppCompatActivity {
      */
     public void calculateScoreQ2(boolean answerClickedQ2) {
 
-        score2 = 0;
         if (answerClickedQ2) {
-            score2 = 1;
+            score++;
         }
     }
 
@@ -119,9 +108,9 @@ public class MainActivity extends AppCompatActivity {
      */
 
     public void calculateScoreQ3(boolean answerClickedQ3A1, boolean answerClickedQ3A2, boolean answerClickedQ3A3, boolean answerClickedQ3A4) {
-        score3 = 0;
+
         if (answerClickedQ3A1 && !answerClickedQ3A2 && !answerClickedQ3A3 && answerClickedQ3A4) {
-            score3 = 1;
+            score++;
         }
     }
 
@@ -130,9 +119,8 @@ public class MainActivity extends AppCompatActivity {
      */
     public void calculateScoreQ4(boolean answerClickedQ4) {
 
-        score4 = 0;
         if (answerClickedQ4) {
-            score4 = 1;
+            score++;
         }
     }
 
@@ -141,9 +129,8 @@ public class MainActivity extends AppCompatActivity {
      */
     public void calculateScoreQ5(boolean answerClickedQ5) {
 
-        score5 = 0;
         if (answerClickedQ5) {
-            score5 = 1;
+            score++;
         }
     }
 
@@ -152,9 +139,9 @@ public class MainActivity extends AppCompatActivity {
      */
 
     public void calculateScoreQ6(boolean answerClickedQ6A1, boolean answerClickedQ6A2, boolean answerClickedQ6A3, boolean answerClickedQ6A4) {
-        score6 = 0;
+
         if (answerClickedQ6A1 && answerClickedQ6A2 && answerClickedQ6A3 && answerClickedQ6A4) {
-            score6 = 1;
+            score++;
         }
     }
 
@@ -163,19 +150,15 @@ public class MainActivity extends AppCompatActivity {
      */
 
     public void calculateScoreQ7(String answerQ7) {
-        score7 = 0;
+
         if (answerQ7.equals("Case Report Form") || answerQ7.equals("CASE REPORT FORM") || answerQ7.equals("case report form")) {
-            score7 = 1;
+            score++;
         }
     }
 
     /**
      * this method calculates the total scores
      */
-
-    public int calculateTotalScore(int score1, int score2, int score3, int score4, int score5, int score6, int score7) {
-        return score1 + score2 + score3 + score4 + score5 + score6 + score7;
-    }
 
     public void reset(View view){
         RadioGroup radioGroup1 = findViewById(R.id.RGroup1);
@@ -218,3 +201,4 @@ public class MainActivity extends AppCompatActivity {
         editTextQ7.setText("");
     }
 }
+
