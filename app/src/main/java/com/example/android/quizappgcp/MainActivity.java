@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void submitAnswer(View view) {
+        
+        score = 0;
 
         RadioButton radioButtonQ1A1 = findViewById(R.id.q1a1);
         boolean answerClickedQ1 = radioButtonQ1A1.isChecked();
