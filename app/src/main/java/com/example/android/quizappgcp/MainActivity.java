@@ -29,48 +29,48 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void submitAnswer(View view) {
-        
+
         score = 0;
 
-        RadioButton radioButtonQ1A1 = findViewById(R.id.q1a1);
+        RadioButton radioButtonQ1A1 = findViewById(R.id.rb_q1a1);
         boolean answerClickedQ1 = radioButtonQ1A1.isChecked();
         calculateScoreQ1(answerClickedQ1);
 
-        RadioButton radioButtonQ2A3 = findViewById(R.id.q2a3);
+        RadioButton radioButtonQ2A3 = findViewById(R.id.rb_q2a3);
         boolean answerClickedQ2 = radioButtonQ2A3.isChecked();
         calculateScoreQ2(answerClickedQ2);
 
-        CheckBox checkBoxQ3A1 = findViewById(R.id.q3a1);
+        CheckBox checkBoxQ3A1 = findViewById(R.id.cb_q3a1);
         boolean answerClickedQ3A1 = checkBoxQ3A1.isChecked();
 
-        CheckBox checkBoxQ3A2 = findViewById(R.id.q3a2);
+        CheckBox checkBoxQ3A2 = findViewById(R.id.cb_q3a2);
         boolean answerClickedQ3A2 = checkBoxQ3A2.isChecked();
 
-        CheckBox checkBoxQ3A3 = findViewById(R.id.q3a3);
+        CheckBox checkBoxQ3A3 = findViewById(R.id.cb_q3a3);
         boolean answerClickedQ3A3 = checkBoxQ3A3.isChecked();
 
-        CheckBox checkBoxQ3A4 = findViewById(R.id.q3a4);
+        CheckBox checkBoxQ3A4 = findViewById(R.id.cb_q3a4);
         boolean answerClickedQ3A4 = checkBoxQ3A4.isChecked();
         calculateScoreQ3(answerClickedQ3A1, answerClickedQ3A2, answerClickedQ3A3, answerClickedQ3A4);
 
-        RadioButton radioButtonQ4A2 = findViewById(R.id.q4a2);
+        RadioButton radioButtonQ4A2 = findViewById(R.id.rb_q4a2);
         boolean answerClickedQ4 = radioButtonQ4A2.isChecked();
         calculateScoreQ4(answerClickedQ4);
 
-        RadioButton radioButtonQ5A3 = findViewById(R.id.q5a3);
+        RadioButton radioButtonQ5A3 = findViewById(R.id.rb_q5a3);
         boolean answerClickedQ5 = radioButtonQ5A3.isChecked();
         calculateScoreQ5(answerClickedQ5);
 
-        CheckBox checkBoxQ6A1 = findViewById(R.id.q6a1);
+        CheckBox checkBoxQ6A1 = findViewById(R.id.cb_q6a1);
         boolean answerClickedQ6A1 = checkBoxQ6A1.isChecked();
 
-        CheckBox checkBoxQ6A2 = findViewById(R.id.q6a2);
+        CheckBox checkBoxQ6A2 = findViewById(R.id.cb_q6a2);
         boolean answerClickedQ6A2 = checkBoxQ6A2.isChecked();
 
-        CheckBox checkBoxQ6A3 = findViewById(R.id.q6a3);
+        CheckBox checkBoxQ6A3 = findViewById(R.id.cb_q6a3);
         boolean answerClickedQ6A3 = checkBoxQ6A3.isChecked();
 
-        CheckBox checkBoxQ6A4 = findViewById(R.id.q6a4);
+        CheckBox checkBoxQ6A4 = findViewById(R.id.cb_q6a4);
         boolean answerClickedQ6A4 = checkBoxQ6A4.isChecked();
         calculateScoreQ6(answerClickedQ6A1, answerClickedQ6A2, answerClickedQ6A3, answerClickedQ6A4);
 
@@ -175,28 +175,28 @@ public class MainActivity extends AppCompatActivity {
         RadioGroup radioGroup4 = findViewById(R.id.RGroup4);
         radioGroup4.clearCheck();
 
-        CheckBox checkBoxQ3A1 = findViewById(R.id.q3a1);
+        CheckBox checkBoxQ3A1 = findViewById(R.id.cb_q3a1);
         checkBoxQ3A1.setChecked(false);
 
-        CheckBox checkBoxQ3A2 = findViewById(R.id.q3a2);
+        CheckBox checkBoxQ3A2 = findViewById(R.id.cb_q3a2);
         checkBoxQ3A2.setChecked(false);
 
-        CheckBox checkBoxQ3A3 = findViewById(R.id.q3a3);
+        CheckBox checkBoxQ3A3 = findViewById(R.id.cb_q3a3);
         checkBoxQ3A3.setChecked(false);
 
-        CheckBox checkBoxQ3A4 = findViewById(R.id.q3a4);
+        CheckBox checkBoxQ3A4 = findViewById(R.id.cb_q3a4);
         checkBoxQ3A4.setChecked(false);
 
-        CheckBox checkBoxQ6A1 = findViewById(R.id.q6a1);
+        CheckBox checkBoxQ6A1 = findViewById(R.id.cb_q6a1);
         checkBoxQ6A1.setChecked(false);
 
-        CheckBox checkBoxQ6A2 = findViewById(R.id.q6a2);
+        CheckBox checkBoxQ6A2 = findViewById(R.id.cb_q6a2);
         checkBoxQ6A2.setChecked(false);
 
-        CheckBox checkBoxQ6A3 = findViewById(R.id.q6a3);
+        CheckBox checkBoxQ6A3 = findViewById(R.id.cb_q6a3);
         checkBoxQ6A3.setChecked(false);
 
-        CheckBox checkBoxQ6A4 = findViewById(R.id.q6a4);
+        CheckBox checkBoxQ6A4 = findViewById(R.id.cb_q6a4);
         checkBoxQ6A4.setChecked(false);
 
         EditText editTextQ7 = findViewById(R.id.answer_input);
