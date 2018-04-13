@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_margintop">24dp</dimen>
+    <dimen name="image_marginbottom">24dp</dimen>
+    <dimen name="text_margintop">24dp</dimen>
+    <dimen name="text_paddingbottom">14dp</dimen>
+    <dimen name="text_marginleft">10dp</dimen>
+    <dimen name="text_marginright">10dp</dimen>
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="radiobutton_textsize">16dp</dimen>
+    <dimen name="radiobutton_paddingleft">20dp</dimen>
+    <dimen name="radiobutton_paddingright">20dp</dimen>
+    <dimen name="radiogroup_paddingleft">16dp</dimen>
+    <dimen name="radiogroup_paddingright">16dp</dimen>
+    <dimen name="linear_layout_paddingleft_radiobutton">10dp</dimen>
+    <dimen name="linear_layout_paddingbottom">14dp</dimen>
+    <dimen name="linear_layout_paddingleft">20dp</dimen>
+    <dimen name="linear_layout_paddingright">10dp</dimen>
+    <dimen name="linear_layout_marginbottom">24dp</dimen>
+    <dimen name="linear_layout_marginleft">20dp</dimen>
+    <dimen name="linear_layout_marginleft_radiobutton">10dp</dimen>
+    <dimen name="linear_layout_marginright">20dp</dimen>
+    <dimen name="linear_layout_margintop">24dp</dimen>
+    <dimen name="submit_marginbottom">24dp</dimen>
+    <dimen name="submit_marginleft">24dp</dimen>
+    <dimen name="checkbox_paddingleft">20dp</dimen>
+    <dimen name="checkbox_paddingright">20dp</dimen>
+</resources>
