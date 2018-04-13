@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void calculateScoreQ7(String answerQ7) {
 
-        if (answerQ7.equals("Case Report Form") || answerQ7.equals("CASE REPORT FORM") || answerQ7.equals("case report form")) {
+        if (answerQ7.equalsIgnoreCase("Case Report Form")) {
             score++;
         }
     }
