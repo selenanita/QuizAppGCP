@@ -59,7 +59,7 @@
                 android:paddingStart="@dimen/radiogroup_paddingleft">
 
                 <RadioButton
-                    android:id="@+id/q1a1"
+                    android:id="@+id/rb_q1a1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingEnd="@dimen/radiobutton_paddingright"
@@ -71,7 +71,7 @@
                     android:textSize="@dimen/text_size" />
 
                 <RadioButton
-                    android:id="@+id/q1a2"
+                    android:id="@+id/rb_q1a2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingEnd="@dimen/radiobutton_paddingright"
@@ -83,7 +83,7 @@
                     android:textSize="@dimen/text_size" />
 
                 <RadioButton
-                    android:id="@+id/q1a3"
+                    android:id="@+id/rb_q1a3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingEnd="@dimen/radiobutton_paddingright"
@@ -138,7 +138,7 @@
                 android:paddingStart="@dimen/radiogroup_paddingleft">
 
                 <RadioButton
-                    android:id="@+id/q2a1"
+                    android:id="@+id/rb_q2a1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingEnd="@dimen/radiobutton_paddingright"
@@ -150,7 +150,7 @@
                     android:textSize="@dimen/text_size" />
 
                 <RadioButton
-                    android:id="@+id/q2a2"
+                    android:id="@+id/rb_q2a2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingEnd="@dimen/radiobutton_paddingright"
@@ -162,7 +162,7 @@
                     android:textSize="@dimen/text_size" />
 
                 <RadioButton
-                    android:id="@+id/q2a3"
+                    android:id="@+id/rb_q2a3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingEnd="@dimen/radiobutton_paddingright"
@@ -207,7 +207,7 @@
                 android:textStyle="bold" />
 
             <CheckBox
-                android:id="@+id/q3a1"
+                android:id="@+id/cb_q3a1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingEnd="@dimen/checkbox_paddingright"
@@ -219,7 +219,7 @@
                 android:textSize="@dimen/text_size" />
 
             <CheckBox
-                android:id="@+id/q3a2"
+                android:id="@+id/cb_q3a2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingEnd="@dimen/checkbox_paddingright"
@@ -231,7 +231,7 @@
                 android:textSize="@dimen/text_size" />
 
             <CheckBox
-                android:id="@+id/q3a3"
+                android:id="@+id/cb_q3a3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingEnd="@dimen/checkbox_paddingright"
@@ -243,7 +243,7 @@
                 android:textSize="@dimen/text_size" />
 
             <CheckBox
-                android:id="@+id/q3a4"
+                android:id="@+id/cb_q3a4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingEnd="@dimen/checkbox_paddingright"
@@ -297,7 +297,7 @@
                 android:paddingStart="@dimen/radiogroup_paddingleft">
 
                 <RadioButton
-                    android:id="@+id/q4a1"
+                    android:id="@+id/rb_q4a1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingEnd="@dimen/radiobutton_paddingright"
@@ -309,7 +309,7 @@
                     android:textSize="@dimen/text_size" />
 
                 <RadioButton
-                    android:id="@+id/q4a2"
+                    android:id="@+id/rb_q4a2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingEnd="@dimen/radiobutton_paddingright"
@@ -321,7 +321,7 @@
                     android:textSize="@dimen/text_size" />
 
                 <RadioButton
-                    android:id="@+id/q4a3"
+                    android:id="@+id/rb_q4a3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingEnd="@dimen/radiobutton_paddingright"
@@ -377,7 +377,7 @@
 
 
                 <RadioButton
-                    android:id="@+id/q5a1"
+                    android:id="@+id/rb_q5a1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingEnd="@dimen/radiobutton_paddingright"
@@ -389,7 +389,7 @@
                     android:textSize="@dimen/text_size" />
 
                 <RadioButton
-                    android:id="@+id/q5a2"
+                    android:id="@+id/rb_q5a2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingEnd="@dimen/radiobutton_paddingright"
@@ -401,7 +401,7 @@
                     android:textSize="@dimen/text_size" />
 
                 <RadioButton
-                    android:id="@+id/q5a3"
+                    android:id="@+id/rb_q5a3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingEnd="@dimen/radiobutton_paddingright"
@@ -446,7 +446,7 @@
                 android:textStyle="bold" />
 
             <CheckBox
-                android:id="@+id/q6a1"
+                android:id="@+id/cb_q6a1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingEnd="@dimen/checkbox_paddingright"
@@ -458,7 +458,7 @@
                 android:textSize="@dimen/text_size" />
 
             <CheckBox
-                android:id="@+id/q6a2"
+                android:id="@+id/cb_q6a2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingEnd="@dimen/checkbox_paddingright"
@@ -470,7 +470,7 @@
                 android:textSize="@dimen/text_size" />
 
             <CheckBox
-                android:id="@+id/q6a3"
+                android:id="@+id/cb_q6a3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingEnd="@dimen/checkbox_paddingright"
@@ -482,7 +482,7 @@
                 android:textSize="@dimen/text_size" />
 
             <CheckBox
-                android:id="@+id/q6a4"
+                android:id="@+id/cb_q6a4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingEnd="@dimen/checkbox_paddingright"
